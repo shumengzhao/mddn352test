@@ -13,19 +13,79 @@ html, body {
   width: 100%;
 }
 
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+
+ .text-vcenter h1 {
+  font-size: 2.5em;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+ .text-vcenter h3 {
+  font-size: 1.3em;
+  font-weight: 200;
+  margin: 0;
+  padding: 5px;
+}
+
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+ .text-vcenter h1 {
+  font-size: 2.8em;
+  font-weight: 550;
+  margin: 0;
+  padding: 0;
+}
+ .text-vcenter h3 {
+  font-size: 1.5em;
+  font-weight: 250;
+  margin: 0;
+  padding: 8px;
+}
+}
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+ .text-vcenter h1 {
+  font-size: 3.5em;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+ .text-vcenter h3 {
+  font-size: 1.8em;
+  font-weight: 200;
+  margin: 0;
+  padding: 10px;
+}
+}
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+
+ .text-vcenter h1 {
+  font-size: 4.3em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+ } 
+.text-vcenter h3 {
+  font-size: 2.5em;
+  font-weight: 300;
+  margin: 0;
+  padding: 20px;
+}
+
+}
+
 /* vertical-centered text */
-.text-vcenter {
+  .text-vcenter {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
-.text-vcenter h1 {
-  font-size: 4.5em;
-  font-weight: 700;
-  margin: 0;
-  padding: 0;
-}
-
 /* additional sections */
 #home {
   background: url('../images/home.jpg') no-repeat center center fixed; 

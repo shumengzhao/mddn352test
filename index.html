@@ -6,11 +6,19 @@
   <title>MDDN352 project 1</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
+  <!-- attach CSS styles -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" />
 </head>
 <body>
+
+  <!--  BODY PAGE CONTENT -->
+
+  <!-- attach JavaScripts -->
   <script src="js/jquery-1.10.2.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="//maps.google.com/maps/api/js?sensor=true"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
 
@@ -18,6 +26,7 @@
 <!-- navigation panel -->
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
         <span class="sr-only">Toggle navigation</span>
@@ -34,6 +43,7 @@
         <li><a href="#introduction">Introduction</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#information">Information</a></li>
+        <li role="separator" class="divider"></li>
         <li><a href="#themes">Themes</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
@@ -41,26 +51,35 @@
 </nav>
 
 
+<!-- first section - Home -->
 <div id="home" class="home">
   <div class="text-vcenter">
-    <h1>childern new experience in TEPAPA museum</h1>
-    <h3>for up to six years old childern </h3>
-    <a href="#introduction" class="btn btn-default btn-lg">Continue</a>
+    <h1>New experience for childern in TEPAPA museum</h1>
+    <h3>for up to six years old childern</h3>
+    <a href="#about" class="btn btn-default btn-lg">Continue</a>
   </div>
 </div>
 <!-- /first section -->
 
 
-<!-- second section - About -->
-<div id="introduction" class="pad-section">
+<!-- second section - Introduction -->
+<div id="about" class="pad-section">
   <div class="container">
     <div class="row">
-      <div class="col-sm-6">
-        <img src="" alt="" />
-      </div>
-      <div class="col-sm-6 text-center">
-        <h2>introduction of inspiration</h2>
-        <p class="lead">problem in museum for childern and the solution of this app</p>
+      
+       
+      
+      <div class="col-sm-12 text-center">
+        <h2>the main frame of app</h2>
+        <p class="lead">style colour UI</p>
+          <div class="col-sm-6 col-xs-12 text-center">
+            <img src="images/template.png" alt="" />
+          </div>
+          <div class="col-sm-6 col-xs-12 text-center">
+            <img src="images/template.png" alt="" />
+          </div>
+
+
       </div>
     </div>
   </div>
@@ -74,22 +93,22 @@
     <h2 class="text-center">Our Services</h2> <hr />
     <div class="row text-center">
       <div class="col-sm-3 col-xs-6">
-        <i class="glyphicon glyphicon-cloud"> </i>
+        <i class="glyphicon glyphicon-eye-open"> </i>
         <h4>Step 1</h4>
         <p>find the target object in the museum</p>
       </div>
       <div class="col-sm-3 col-xs-6">
-        <i class="glyphicon glyphicon-leaf"> </i>
+        <i class="glyphicon glyphicon-camera"> </i>
         <h4>Step 2</h4>
-        <p>take photo of the object with template</p>
+        <p>take photo of the object with templat.</p>
       </div>
       <div class="col-sm-3 col-xs-6">
-        <i class="glyphicon glyphicon-phone-alt"> </i>
+        <i class="glyphicon glyphicon-question-sign"> </i>
         <h4>Step 3</h4>
         <p>answer the question</p>
       </div>
       <div class="col-sm-3 col-xs-6">
-        <i class="glyphicon glyphicon-bullhorn"> </i>
+        <i class="glyphicon glyphicon-heart-empty"> </i>
         <h4>Step 4</h4>
         <p>got the stuff in your template</p>
       </div>
@@ -106,20 +125,20 @@
       <div class="col-sm-6">
         <div class="panel panel-default">
           <div class="panel-heading">
-            <h2 class="panel-title">main frame in the app</h2>
+            <h2 class="panel-title">inspiration</h2>
           </div>
           <div class="panel-body lead">
-            <img src="" alt="" />
+            introduction of inspiration 
           </div>
         </div>
       </div>
       <div class="col-sm-6">
         <div class="panel panel-default">
           <div class="panel-heading">
-            <h2 class="panel-title">Additional information</h2>
+            <h2 class="panel-title">Te Papa</h2>
           </div>
           <div class="panel-body lead">
-           <img src="" alt="" />
+            problem in museum for childern and the solution of this app
           </div>
         </div>
       </div>
@@ -133,47 +152,52 @@
 <div id="services" class="pad-section">
   <div class="container">
     <div class="row">
-      <div class="col-sm-6 text-center">
+       <div class="col-sm-6 text-center">
         <h3>start your free trial now</h3>
         
       </div>
       <div class="col-sm-6 text-center">
-        <h3>place for enter email and button</h3>
-      </div>>
+            <div class="input-group">
+      <input type="text" class="form-control" placeholder="Enter your email adress">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button">Get start</button>
+      </span>
+      </div>
     </div>
   </div>
 </div>
 <!-- /fifth section -->
 
-<!-- google map -->
-<div id="themes" class="pad-section" >
-    <div class="container">
+<!-- sixth section -->
+<div id="themes class="pad-section>
+   <div class="container">
       <div class="row">
-       <div class="col-sm-6 col-md-3">
-         <img src="" alt="" />
+       <div class="col-sm-4 col-xs-6">
+         <img src="images/template.jpg" alt="" class="img-circle"/>
        </div>
-        <div class="col-sm-6 col-md-3">
-          <img src="" alt="" />
+        <div class="col-sm-4 col-xs-6">
+          <img src="images/template.jpg" alt="" class="img-circle"/>
        </div>
-        <div class="col-sm-6 col-md-3">
-          <img src="" alt="" />
+        <div class="col-sm-4 col-xs-6">
+          <img src="images/template.jpg" alt="" class="img-circle"/>
        </div>
-        <div class="col-sm-6 col-md-3">
-          <img src="" alt="" />
+        <div class="col-sm-4 col-xs-6">
+          <img src="images/template.jpg" alt="" class="img-circle"/>
        </div>
-
-
-      </div>
-    </div>
-
+        <div class="col-sm-4 col-xs-6">
+          <img src="images/template.jpg" alt="" class="img-circle"/>
+       </div>
+        <div class="col-sm-4 col-xs-6">
+          <img src="images/template.jpg" alt="" class="img-circle"/>
+       </div>
 </div>
-<!-- /google map -->
+<!-- /sixth section -->
 
 <!-- footer -->
 <footer>
   <hr />
   <div class="container">
-    <p class="text-right">Copyright &copy; Your Company 2014</p>
+    <p class="text-right">victoria university of wellington,</p>
   </div>
 </footer>
 <!-- /footer -->

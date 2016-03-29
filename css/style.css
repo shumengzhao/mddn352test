@@ -87,6 +87,15 @@ html, body {
   vertical-align: middle;
 }
 /* additional sections */
+.navbar{
+   background-color: #C4D4F2;
+   opacity: 0.8;
+}
+
+.navbar a{
+   color: #F2F2F2;
+}
+
 #home {
   background: url('../images/child.jpg') no-repeat center center fixed; 
   display: table;
@@ -101,11 +110,13 @@ html, body {
 
 #introduction {
   padding-top: 10px;
+  background-color: #A7C0F2;
+  color: #F2F2F2;
 }
 
 #services {
-  background-color: #306d9f;
-  color: #ffffff;
+  background-color: #809DF2;
+  color: #F2F2F2;
 }
 #services .glyphicon {
   border: 2px solid #FFFFFF;
@@ -135,9 +146,10 @@ html, body {
 }
 
 #themes {
- 
   padding-top: 10px;
   position:relative;
+
+  background-color: #527AF2;
 }
 
 #themes img {
@@ -158,10 +170,4 @@ padding-top: 30px;
 footer {
   padding: 250px 0;
 }
-footer .glyphicon {
-  color: #333333;
-  font-size: 60px;
-}
-footer .glyphicon:hover {
-  color: #306d9f;
-}
+

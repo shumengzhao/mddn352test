@@ -136,11 +136,27 @@ html, body {
 
 #themes {
   height: 500px;
-  padding: 10px 0;
+  padding-top: 10px;
+  position:relative;
 }
 
+#themes img {
+padding-top: 30px;
+ position:absolute;
+
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+
+}
+#themes img.top:hover {
+  opacity:0;
+}
+
+
 footer {
-  padding: 20px 0;
+  padding: 250px 0;
 }
 footer .glyphicon {
   color: #333333;

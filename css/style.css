@@ -133,7 +133,7 @@ html, body {
 #information {
   background: url('../images/tepapa.jpg') no-repeat center center fixed; 
   display: table;
-  height: 800px;
+  height: 500px;
   position: relative;
   width: 100%;
   -webkit-background-size: cover;
